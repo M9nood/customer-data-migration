@@ -16,6 +16,7 @@ const migrations = {
   'banks': migration.bankInfo,
   'open-account-at': migration.openAccAt,
   'plans': migration.plans,
+  'open-account-state' : migration.openAcctState,
 }
 const migrateFn = migrations[migrate]
 
