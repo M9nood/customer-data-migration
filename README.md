@@ -45,3 +45,7 @@
 ### migrate remove-subscriber
 
 `node index.js --migrate remove-subscriber --db <MONGO_DB> --collection <MONGO_COLLECTION> --uri <MONGO_URI>`
+
+### migrate open_account_state
+
+`node index.js --migrate open-account-state --db <MONGO_DB> --collection <MONGO_COLLECTION> --uri <MONGO_URI> --path <PATH_TO_CSV>`
